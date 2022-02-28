@@ -1,0 +1,124 @@
+html{
+box-sizing: border-box;} *,*:before,*:after { box-sizing:inherit;}
+
+
+.background-picture{
+	background-image: url(http://bgfons.com/uploads/ornaments/ornaments_texture1141.jpg)
+}
+
+.header-shadow{
+  text-shadow: 2px 2px 5px black;
+  color:white;
+  margin:0;
+  padding:14px 16px;
+  overflow:hidden;
+  font-size: 15px;
+  text-align: center;
+  font-size: 18px;
+  font-style: bold;
+ 
+}
+
+.footer-site{
+		border: 10px red;
+		position: fixed;
+		bottom: 0px;
+		text-align:center;
+		
+		width: 100%;
+		height: 40px;
+}
+
+.p-footer
+{
+	text-align: center;
+	border-top: 4px solid LightSkyBlue;
+	color:white;
+	font-size: 20px;
+	font-family: Times New Roman;
+	opacity: 0.4;
+}
+	
+
+.unordered-list{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: LightSkyBlue;
+}
+
+.list{
+	float:left;
+	font-size:18px;
+	font-family: Times New Roman;
+}
+
+.list-a{
+	 display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.list-a:hover{
+	background-color: LightSkyBlue;
+}
+
+.active{
+	background-color: red;
+}
+.box-container{
+	height:520px;
+	width: 1360px;
+	border: none;
+	padding: 0px;
+	margin: 0 auto;
+	text-align:center;
+}
+
+.box-header{
+	text-align:left;
+	color: midnightblue;
+	border-left: 12px solid lightskyblue;
+	background-color: lightgray;
+	opacity:0.9;
+	margin: 0 auto;
+}
+
+.box-header-text{
+	font-weight:bold;
+	opacity:0.9;
+	padding-left: 7px;
+}
+
+input[type=text]{
+	border: 3px solid LightSkyBlue;
+	border-radius: 5px;
+	font-size: 15px;
+	text-align: center;
+	color:black;
+	height: 30px;
+	width:500px;
+	
+}
+
+input[type=button]{
+	background-color: LightSkyBlue;
+	color: black;
+	
+	padding: 8px 16px;	
+	border-radius: 4px;
+	font-family: Tahoma New Roman;
+	font-size: 17px;
+	border-color: MidnightBlue;
+}
+
+.text-form{
+	text-align: center;
+	color:white;
+	padding: 3px;
+	padding-top:20px;
+	font-size: 17px;
+}
